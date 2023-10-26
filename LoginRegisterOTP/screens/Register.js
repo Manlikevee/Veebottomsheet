@@ -62,7 +62,7 @@ const Register = ({ navigation }) => {
         <Animatable.View
           animation="fadeInUpBig"
           style={styles.footer}>
-          <KeyboardAwareScrollView>
+          {/* <KeyboardAwareScrollView> */}
             <Text style={styles.inputHeader}>Full Name</Text>
             <Input
               id="fullName"
@@ -106,7 +106,7 @@ const Register = ({ navigation }) => {
               isLoading={isLoading}
               onPress={() => navigation.navigate('Login')}
             />
-          </KeyboardAwareScrollView>
+          {/* </KeyboardAwareScrollView> */}
         </Animatable.View>
       </LinearGradient>
     </SafeAreaView>
